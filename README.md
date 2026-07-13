@@ -24,38 +24,62 @@
 
 ---
 
-## Who I Am
+<h2 align="center">✦ Who I Am ✦</h2>
+
+<p align="center">
+<em>Crafting digital experiences with clean code and modern architecture</em>
+</p>
+
+<table align="center">
+<tr><td>
 
 ```typescript
+// 📄 developer.ts
+
 const harshitGupta: Developer = {
+
+  // 💼 Identity
   title: "Full Stack Developer",
   status: "Fresher | Open to Work",
-  openTo: ["Full Stack Developer Roles", "Frontend Developer Roles", "Backend Developer Roles"],
+
+  // 🎯 Seeking Opportunities
+  openTo: [
+    "Full Stack Developer Roles",
+    "Frontend Developer Roles",
+    "Backend Developer Roles",
+  ],
+
+  // 🛠️ Tech Arsenal
   stack: {
     languages: ["C++", "Java", "Python"],
-    frontend: ["HTML", "CSS", "JavaScript", "React"],
-    backend: ["Node.js", "Express.js"],
+    frontend:  ["HTML", "CSS", "JavaScript", "React"],
+    backend:   ["Node.js", "Express.js"],
   },
+
+  // 🚀 Launched Projects
   launchedProjects: [
     {
       name: "Code Syncer",
-      description: "Real-time collaborative code editor for pair programming with live code syncing",
-      liveLink: "https://code-syncer.vercel.app",
-      repoLink: "https://github.com/harshitGuptaj/code-Syncer",
+      desc: "Real-time collaborative code editor",
+      live: "code-syncer.vercel.app",
     },
     {
       name: "Student Performance Forecasting",
-      description: "Data science project analyzing and predicting student academic performance in India",
-      repoLink: "https://github.com/harshitGuptaj/Understanding-and-Forecasting-Student-Performance-in-India",
+      desc: "Data science & ML prediction model",
     },
   ],
-  certifications: [],
+
+  // 📬 Contact
   contact: {
-    email: "hargupta2004@gmail.com",
-    linkedin: "https://www.linkedin.com/in/harshit-gupta-57b92935b",
+    email:    "hargupta2004@gmail.com",
+    linkedin: "harshit-gupta-57b92935b",
   },
+
 } as const;
 ```
+
+</td></tr>
+</table>
 
 ---
 
