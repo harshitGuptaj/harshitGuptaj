@@ -21,7 +21,70 @@ jobs:
             dist/github-snake.svg?palette=github-dark
             dist/github-snake-dark.svg?palette=github-dark&color_snake=ffffff&color_dots=#000000,#1a1a1a,#333333,#666666,#ffffff
 
-      - name: Deploy to output branch
+      - name: Inline CSS into SVGs
+        run: |
+          python3 << 'PYEOF'
+          import re, os, glob
+
+          color_map = {
+              "var(--ce)": "#161b22",
+              "var(--c0)": "#161b22",
+              "var(--c1)": "#01311f",
+              "var(--c2)": "#034525",
+              "var(--c3)": "#0f6d31",
+              "var(--c4)": "#00c647",
+              "var(--cs)": "#a371f7",
+              "var(--cb)": "#1b1f230a",
+          }
+
+          for svg_file in glob.glob("dist/*.svg"):
+              with open(svg_file, "r") as f:
+                  svg = f.read()
+
+              # Extract class -> fill mappings from CSS
+              class_fills = {}
+              for m in re.finditer(r'\.(\w+(?:\.\w+)*)\s*\{[^}]*fill:\s*(var\(--\w+\))', svg):
+                  cls = m.group(1)
+                  var = m.group(2)
+                  class_fills[cls] = color_map.get(var, var)
+
+              # For each rect, determine fill from its classes
+              def replace_rect(m):
+                  tag = m.group(0)
+                  cls_match = re.search(r'class="([^"]*)"', tag)
+                  if not cls_match:
+                      return tag
+                  classes = cls_match.group(1).split()
+
+                  # Find the most specific fill
+                  fill = None
+                  for i in range(len(classes), 0, -1):
+                      key = ".".join(classes[:i])
+                      if key in class_fills:
+                          fill = class_fills[key]
+                          break
+
+                  if not fill:
+                      return tag
+
+                  # Remove existing fill if any
+                  tag = re.sub(r'\s*fill="[^"]*"', '', tag)
+                  # Add inline fill before closing />
+                  tag = tag.replace('/>', f'fill="{fill}"/>')
+                  return tag
+
+              svg = re.sub(r'<rect[^/]*/>', replace_rect, svg)
+
+              # Remove <style> block
+              svg = re.sub(r'<style>.*?</style>', '', svg, flags=re.DOTALL)
+
+              with open(svg_file, "w") as f:
+                  f.write(svg)
+
+              print(f"Inlined CSS in {svg_file}")
+          PYEOF
+
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
