@@ -12,7 +12,7 @@
 
 <br>
 
-<!-- ========== BADGES ========== -->
+<!-- ========== BADGES ROW ========== -->
 <p align="center">
 <a href="https://github.com/harshitGuptaj">
 <img src="https://img.shields.io/badge/OPEN_TO_WORK-f0f6fc?style=for-the-badge&logo=github&logoColor=0d1117&labelColor=0d1117&borderColor=f0f6fc" alt="Open to Work">
@@ -23,6 +23,19 @@
 <a href="https://github.com/harshitGuptaj">
 <img src="https://komarev.com/ghpvc/?username=harshitGuptaj&label=PROFILE+VIEWS&style=for-the-badge&color=f0f6fc&labelColor=0d1117&borderColor=f0f6fc" alt="Profile Views">
 </a>
+<a href="https://github.com/harshitGuptaj?tab=repositories">
+<img src="https://img.shields.io/github/repos/harshitGuptaj?label=REPOS&style=for-the-badge&color=f0f6fc&labelColor=0d1117&borderColor=f0f6fc" alt="Repos">
+</a>
+<a href="https://github.com/harshitGuptaj?tab=stars">
+<img src="https://img.shields.io/github/stars/harshitGuptaj?label=STARS&style=for-the-badge&color=f0f6fc&labelColor=0d1117&borderColor=f0f6fc" alt="Stars">
+</a>
+</p>
+
+<br>
+
+<!-- ========== SNAKE GAME ========== -->
+<p align="center">
+<img src="https://raw.githubusercontent.com/harshitGuptaj/harshitGuptaj/output/github-snake-dark.svg" width="100%" alt="Snake Game">
 </p>
 
 <br>
@@ -199,40 +212,34 @@ TECH STACK
 
 <!-- ========== GITHUB STATS ========== -->
 <h1 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; letter-spacing: 6px; font-weight: 400;">
-GITHUB ANALYTICS
+GITHUB STATS
 </h1>
 
 <table align="center" width="100%">
 <tr>
 <td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 20px; width: 32%;">
 
-<p align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-weight: 400;">Repositories</p>
+<p align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-size: 14px;">Repositories</p>
 <p align="center">
-<a href="https://github.com/harshitGuptaj?tab=repositories">
 <img src="https://img.shields.io/github/repos/harshitGuptaj?style=for-the-badge&color=f0f6fc&labelColor=0d1117&borderColor=30363d" alt="Repos">
-</a>
 </p>
 
 </td>
 <td style="width: 2%;"></td>
 <td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 20px; width: 32%;">
 
-<p align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-weight: 400;">Stars</p>
+<p align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-size: 14px;">Stars Earned</p>
 <p align="center">
-<a href="https://github.com/harshitGuptaj?tab=stars">
 <img src="https://img.shields.io/github/stars/harshitGuptaj?style=for-the-badge&color=f0f6fc&labelColor=0d1117&borderColor=30363d" alt="Stars">
-</a>
 </p>
 
 </td>
 <td style="width: 2%;"></td>
 <td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 20px; width: 32%;">
 
-<p align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-weight: 400;">Contributions</p>
+<p align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-size: 14px;">Followers</p>
 <p align="center">
-<a href="https://github.com/harshitGuptaj">
-<img src="https://img.shields.io/github/commits-since/harshitGuptaj/harshitGuptaj?style=for-the-badge&color=f0f6fc&labelColor=0d1117&borderColor=30363d" alt="Commits">
-</a>
+<img src="https://img.shields.io/github/followers/harshitGuptaj?style=for-the-badge&color=f0f6fc&labelColor=0d1117&borderColor=30363d" alt="Followers">
 </p>
 
 </td>
@@ -241,22 +248,31 @@ GITHUB ANALYTICS
 
 <br>
 
-<!-- ========== TROPHIES ========== -->
 <table align="center" width="100%">
 <tr>
-<td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 25px;">
+<td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 20px; width: 48%;">
+
+<p align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-size: 14px;">Profile Views</p>
 <p align="center">
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-<img src="https://github-profile-trophy.vercel.app/?username=harshitGuptaj&no-frame=true&no-bg=true&theme=onedark&column=7&margin-w=5" alt="Trophies">
-</a>
+<img src="https://komarev.com/ghpvc/?username=harshitGuptaj&label=TOTAL+VIEWS&style=for-the-badge&color=f0f6fc&labelColor=0d1117&borderColor=30363d" alt="Views">
 </p>
+
+</td>
+<td style="width: 4%;"></td>
+<td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 20px; width: 48%;">
+
+<p align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-size: 14px;">Commits This Year</p>
+<p align="center">
+<img src="https://img.shields.io/github/commits-since/harshitGuptaj/harshitGuptaj?style=for-the-badge&color=f0f6fc&labelColor=0d1117&borderColor=30363d" alt="Commits">
+</p>
+
 </td>
 </tr>
 </table>
 
 <br>
 
-<!-- ========== 3D CONTRIBUTIONS ========== -->
+<!-- ========== 3D CONTRIBUTION ========== -->
 <h1 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; letter-spacing: 6px; font-weight: 400;">
 CONTRIBUTIONS
 </h1>
@@ -265,9 +281,7 @@ CONTRIBUTIONS
 <tr>
 <td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 25px;">
 <p align="center">
-<a href="https://github.com/harshitGuptaj">
 <img src="https://github-profile-3d-contrib.vercel.app/api/yellow?username=harshitGuptaj&columnWidth=10&hideBackground=true" alt="3D Contribution" width="650">
-</a>
 </p>
 </td>
 </tr>
