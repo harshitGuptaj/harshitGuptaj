@@ -13,9 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: output
-          fetch-depth: 0
 
       - uses: Platane/snk@v3
         with:
@@ -24,13 +21,11 @@ jobs:
             dist/github-snake.svg?palette=github-dark
             dist/github-snake-dark.svg?palette=github-dark&color_snake=ffffff&color_dots=#000000,#1a1a1a,#333333,#666666,#ffffff
 
-      - run: |
-          cp dist/github-snake.svg . 2>/dev/null || true
-          cp dist/github-snake-dark.svg . 2>/dev/null || true
-
-      - run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git diff --staged --quiet || git commit -m "Update snake $(date +'%Y-%m-%d %H:%M')"
-          git push
+      - name: Deploy to output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          destination_dir: .
+          keep_files: true
+          enable_jekyll: true
