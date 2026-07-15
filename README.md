@@ -1,13 +1,13 @@
-<!-- ========== ROYAL HEADER ========== -->
+<!-- ========== HEADER ========== -->
 <p align="center">
 <a href="https://github.com/harshitGuptaj">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:161b22,50:1f2937,75:0d1117,100:0a0e27&height=300&section=header&text=Harshit%20Gupta&fontSize=55&fontColor=f0f6fc&fontAlignY=40&desc=%E2%9C%A6%20Full%20Stack%20Developer%20%E2%80%A2%20Fresher%20%E2%80%A2%20Open%20to%20Work&descSize=20&descAlignY=60&animation=twinkling&stroke=f0f6fc&strokeWidth=1" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:161b22,50:1f2937,75:0d1117,100:0a0e27&height=280&section=header&text=Harshit%20Gupta&fontSize=55&fontColor=f0f6fc&fontAlignY=40&desc=Full%20Stack%20Developer%20%7C%20Fresher%20%7C%20Open%20to%20Work&descSize=20&descAlignY=60&animation=twinkling&stroke=f0f6fc&strokeWidth=1" width="100%">
 </a>
 </p>
 
 <!-- ========== TYPING SVG ========== -->
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=700&size=24&duration=2500&pause=800&color=f0f6fc&center=true&vCenter=true&multiline=true&repeatType=reverse&width=750&height=120&lines=Building+Real-Time+Web+Applications;Full+Stack+Developer+%7C+React+%7C+Node.js;Crafting+Code+with+Precision+%26+Purpose;Turning+Ideas+into+Digital+Reality" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=700&size=22&duration=2500&pause=800&color=f0f6fc&center=true&vCenter=true&multiline=true&repeatType=reverse&width=700&height=100&lines=Building+Real-Time+Web+Applications;Full+Stack+Developer+%7C+React+%7C+Node.js;Crafting+Code+with+Precision" alt="Typing SVG" />
 </p>
 
 <br>
@@ -27,26 +27,16 @@
 
 <br>
 
-<!-- ========== SNAKE ANIMATION ========== -->
-<p align="center">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harshitGuptaj/harshitGuptaj/output/github-snake-dark.svg" />
-<img alt="github-snake" src="https://raw.githubusercontent.com/harshitGuptaj/harshitGuptaj/output/github-snake-dark.svg" width="100%">
-</picture>
-</p>
-
-<br>
-
 <!-- ========== WHO I AM ========== -->
 <table align="center" width="100%">
 <tr>
 <td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 40px;">
 
-<h1 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; letter-spacing: 6px; font-weight: 400; font-size: 28px;">
+<h1 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; letter-spacing: 6px; font-weight: 400;">
 WHO I AM
 </h1>
 
-<p align="center" style="color: #8b949e; font-family: 'Georgia', serif; font-style: italic; font-size: 16px; margin-bottom: 30px;">
+<p align="center" style="color: #8b949e; font-family: 'Georgia', serif; font-style: italic; font-size: 15px; margin-bottom: 25px;">
 "Crafting digital experiences with clean code, modern architecture, and relentless curiosity."
 </p>
 
@@ -78,13 +68,13 @@ const harshitGupta: Developer = {
   launchedProjects: [
     {
       name:        "Code Syncer",
-      description: "Real-time collaborative code editor with live syncing",
+      description: "Real-time collaborative code editor",
       live:        "code-syncer.vercel.app",
       github:      "harshitGuptaj/code-Syncer",
     },
     {
       name:        "Student Performance Forecasting",
-      description: "Data science & ML prediction model for Indian education",
+      description: "Data science & ML prediction model",
       github:      "harshitGuptaj/Understanding-and-Forecasting-Student-Performance-in-India",
     },
   ],
@@ -105,73 +95,65 @@ const harshitGupta: Developer = {
 <br>
 
 <!-- ========== FEATURED PROJECTS ========== -->
-<h1 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; letter-spacing: 6px; font-weight: 400; font-size: 28px;">
+<h1 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; letter-spacing: 6px; font-weight: 400;">
 FEATURED PROJECTS
 </h1>
 
 <table align="center" width="100%">
 <tr>
 <!-- Project 1 -->
-<td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 30px; width: 50%; vertical-align: top;">
+<td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 30px; width: 48%; vertical-align: top;">
 
-<h2 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-weight: 400; font-size: 22px;">
+<h2 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-weight: 400;">
 Code Syncer
 </h2>
 
-<a href="https://github.com/harshitGuptaj/code-Syncer">
-<img src="https://github-readme-stats.vercel.app/api/pin?username=harshitGuptaj&repo=code-Syncer&theme=transparent&bg_color=0d1117&border_color=30363d&show_icons=true&title_color=f0f6fc&icon_color=8b949e&text_color=8b949e&ring_color=f0f6fc" alt="Code Syncer" width="380">
-</a>
-
-<p align="center" style="color: #8b949e; font-size: 14px; font-family: 'Georgia', serif; line-height: 1.6;">
+<p align="center" style="color: #8b949e; font-size: 13px; font-family: 'Georgia', serif; line-height: 1.6;">
 Real-time collaborative coding platform for pair programming with live code syncing.
 </p>
 
 <table align="center">
-<tr><td align="center" style="color: #f0f6fc; font-weight: bold; padding: 5px 15px;">Layer</td><td align="center" style="color: #f0f6fc; font-weight: bold; padding: 5px 15px;">Technology</td></tr>
-<tr><td style="color: #8b949e; padding: 5px 15px;">Frontend</td><td style="color: #8b949e; padding: 5px 15px;">React, TypeScript, Vite, Tailwind</td></tr>
-<tr><td style="color: #8b949e; padding: 5px 15px;">Real-Time</td><td style="color: #8b949e; padding: 5px 15px;">Socket.IO</td></tr>
-<tr><td style="color: #8b949e; padding: 5px 15px;">Backend</td><td style="color: #8b949e; padding: 5px 15px;">Node.js, Express.js</td></tr>
-<tr><td style="color: #8b949e; padding: 5px 15px;">Editor</td><td style="color: #8b949e; padding: 5px 15px;">CodeMirror 6</td></tr>
-<tr><td style="color: #8b949e; padding: 5px 15px;">Deploy</td><td style="color: #8b949e; padding: 5px 15px;">Vercel + Render</td></tr>
+<tr><td style="color: #f0f6fc; font-weight: bold; padding: 4px 12px;">Layer</td><td style="color: #f0f6fc; font-weight: bold; padding: 4px 12px;">Technology</td></tr>
+<tr><td style="color: #8b949e; padding: 4px 12px;">Frontend</td><td style="color: #8b949e; padding: 4px 12px;">React, TypeScript, Vite, Tailwind</td></tr>
+<tr><td style="color: #8b949e; padding: 4px 12px;">Real-Time</td><td style="color: #8b949e; padding: 4px 12px;">Socket.IO</td></tr>
+<tr><td style="color: #8b949e; padding: 4px 12px;">Backend</td><td style="color: #8b949e; padding: 4px 12px;">Node.js, Express.js</td></tr>
+<tr><td style="color: #8b949e; padding: 4px 12px;">Editor</td><td style="color: #8b949e; padding: 4px 12px;">CodeMirror 6</td></tr>
+<tr><td style="color: #8b949e; padding: 4px 12px;">Deploy</td><td style="color: #8b949e; padding: 4px 12px;">Vercel + Render</td></tr>
 </table>
 
 <br>
 
 <p align="center">
 <a href="https://code-syncer.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-f0f6fc?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=0d1117&borderColor=f0f6fc" alt="Live Demo"></a>
-<a href="https://github.com/harshitGuptaj/code-Syncer"><img src="https://img.shields.io/badge/SOURCE_CODE-0d1117?style=for-the-badge&logo=github&logoColor=f0f6fc&labelColor=f0f6fc&borderColor=f0f6fc" alt="Source"></a>
+<a href="https://github.com/harshitGuptaj/code-Syncer"><img src="https://img.shields.io/badge/SOURCE-0d1117?style=for-the-badge&logo=github&logoColor=f0f6fc&labelColor=f0f6fc&borderColor=f0f6fc" alt="Source"></a>
 </p>
 
 </td>
-<td style="width: 20px;"></td>
+<td style="width: 4%;"></td>
 <!-- Project 2 -->
-<td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 30px; width: 50%; vertical-align: top;">
+<td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 30px; width: 48%; vertical-align: top;">
 
-<h2 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-weight: 400; font-size: 22px;">
+<h2 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-weight: 400;">
 Student Performance Forecasting
 </h2>
 
-<a href="https://github.com/harshitGuptaj/Understanding-and-Forecasting-Student-Performance-in-India">
-<img src="https://github-readme-stats.vercel.app/api/pin?username=harshitGuptaj&repo=Understanding-and-Forecasting-Student-Performance-in-India&theme=transparent&bg_color=0d1117&border_color=30363d&show_icons=true&title_color=f0f6fc&icon_color=8b949e&text_color=8b949e&ring_color=f0f6fc" alt="Student Performance" width="380">
-</a>
-
-<p align="center" style="color: #8b949e; font-size: 14px; font-family: 'Georgia', serif; line-height: 1.6;">
+<p align="center" style="color: #8b949e; font-size: 13px; font-family: 'Georgia', serif; line-height: 1.6;">
 Data science project analyzing & predicting student academic performance in India.
 </p>
 
 <table align="center">
-<tr><td align="center" style="color: #f0f6fc; font-weight: bold; padding: 5px 15px;">Layer</td><td align="center" style="color: #f0f6fc; font-weight: bold; padding: 5px 15px;">Technology</td></tr>
-<tr><td style="color: #8b949e; padding: 5px 15px;">Language</td><td style="color: #8b949e; padding: 5px 15px;">Python</td></tr>
-<tr><td style="color: #8b949e; padding: 5px 15px;">Notebook</td><td style="color: #8b949e; padding: 5px 15px;">Jupyter Notebook</td></tr>
-<tr><td style="color: #8b949e; padding: 5px 15px;">Analysis</td><td style="color: #8b949e; padding: 5px 15px;">Pandas, NumPy</td></tr>
-<tr><td style="color: #8b949e; padding: 5px 15px;">Visualization</td><td style="color: #8b949e; padding: 5px 15px;">Matplotlib, Seaborn</td></tr>
-<tr><td style="color: #8b949e; padding: 5px 15px;">ML</td><td style="color: #8b949e; padding: 5px 15px;">Scikit-learn</td></tr>
+<tr><td style="color: #f0f6fc; font-weight: bold; padding: 4px 12px;">Layer</td><td style="color: #f0f6fc; font-weight: bold; padding: 4px 12px;">Technology</td></tr>
+<tr><td style="color: #8b949e; padding: 4px 12px;">Language</td><td style="color: #8b949e; padding: 4px 12px;">Python</td></tr>
+<tr><td style="color: #8b949e; padding: 4px 12px;">Notebook</td><td style="color: #8b949e; padding: 4px 12px;">Jupyter Notebook</td></tr>
+<tr><td style="color: #8b949e; padding: 4px 12px;">Analysis</td><td style="color: #8b949e; padding: 4px 12px;">Pandas, NumPy</td></tr>
+<tr><td style="color: #8b949e; padding: 4px 12px;">Visualization</td><td style="color: #8b949e; padding: 4px 12px;">Matplotlib, Seaborn</td></tr>
+<tr><td style="color: #8b949e; padding: 4px 12px;">ML</td><td style="color: #8b949e; padding: 4px 12px;">Scikit-learn</td></tr>
 </table>
 
 <br>
 
 <p align="center">
-<a href="https://github.com/harshitGuptaj/Understanding-and-Forecasting-Student-Performance-in-India"><img src="https://img.shields.io/badge/SOURCE_CODE-0d1117?style=for-the-badge&logo=github&logoColor=f0f6fc&labelColor=f0f6fc&borderColor=f0f6fc" alt="Source"></a>
+<a href="https://github.com/harshitGuptaj/Understanding-and-Forecasting-Student-Performance-in-India"><img src="https://img.shields.io/badge/SOURCE-0d1117?style=for-the-badge&logo=github&logoColor=f0f6fc&labelColor=f0f6fc&borderColor=f0f6fc" alt="Source"></a>
 </p>
 
 </td>
@@ -181,32 +163,32 @@ Data science project analyzing & predicting student academic performance in Indi
 <br>
 
 <!-- ========== TECH STACK ========== -->
-<h1 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; letter-spacing: 6px; font-weight: 400; font-size: 28px;">
+<h1 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; letter-spacing: 6px; font-weight: 400;">
 TECH STACK
 </h1>
 
 <table align="center" width="100%">
 <tr>
-<td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 40px;">
+<td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 35px;">
 
-<h3 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-weight: 400; margin-bottom: 15px;">Languages</h3>
+<h3 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-weight: 400;">Languages</h3>
 <p align="center">
-<img src="https://skillicons.dev/icons?i=cpp,java,python&theme=dark" width="120">
+<img src="https://skillicons.dev/icons?i=cpp,java,python&theme=dark" width="110">
 </p>
 
-<h3 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-weight: 400; margin-bottom: 15px;">Frontend</h3>
+<h3 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-weight: 400;">Frontend</h3>
 <p align="center">
-<img src="https://skillicons.dev/icons?i=html,css,js,react,typescript&theme=dark" width="160">
+<img src="https://skillicons.dev/icons?i=html,css,js,react,typescript&theme=dark" width="150">
 </p>
 
-<h3 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-weight: 400; margin-bottom: 15px;">Backend & DevOps</h3>
+<h3 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-weight: 400;">Backend & DevOps</h3>
 <p align="center">
-<img src="https://skillicons.dev/icons?i=nodejs,express,docker,git&theme=dark" width="140">
+<img src="https://skillicons.dev/icons?i=nodejs,express,docker,git&theme=dark" width="130">
 </p>
 
-<h3 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-weight: 400; margin-bottom: 15px;">Tools</h3>
+<h3 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-weight: 400;">Tools</h3>
 <p align="center">
-<img src="https://skillicons.dev/icons?i=vscode,postman,linux,github&theme=dark" width="140">
+<img src="https://skillicons.dev/icons?i=vscode,postman,linux,github&theme=dark" width="130">
 </p>
 
 </td>
@@ -216,57 +198,58 @@ TECH STACK
 <br>
 
 <!-- ========== GITHUB STATS ========== -->
-<h1 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; letter-spacing: 6px; font-weight: 400; font-size: 28px;">
+<h1 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; letter-spacing: 6px; font-weight: 400;">
 GITHUB ANALYTICS
 </h1>
 
 <table align="center" width="100%">
 <tr>
-<td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 25px; width: 50%;">
-<a href="https://github.com/harshitGuptaj">
-<img src="https://github-readme-stats.vercel.app/api?username=harshitGuptaj&show_icons=true&theme=transparent&bg_color=0d1117&border_color=30363d&hide_border=false&title_color=f0f6fc&icon_color=8b949e&text_color=8b949e&ring_color=f0f6fc&include_all_commits=true&count_private=true" alt="GitHub Stats" width="400">
+<td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 20px; width: 32%;">
+
+<p align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-weight: 400;">Repositories</p>
+<p align="center">
+<a href="https://github.com/harshitGuptaj?tab=repositories">
+<img src="https://img.shields.io/github/repos/harshitGuptaj?style=for-the-badge&color=f0f6fc&labelColor=0d1117&borderColor=30363d" alt="Repos">
 </a>
+</p>
+
 </td>
-<td style="width: 20px;"></td>
-<td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 25px; width: 50%;">
-<a href="https://github.com/harshitGuptaj">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=harshitGuptaj&layout=compact&theme=transparent&bg_color=0d1117&border_color=30363d&hide_border=false&title_color=f0f6fc&text_color=8b949e&langs_count=6" alt="Top Languages" width="400">
+<td style="width: 2%;"></td>
+<td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 20px; width: 32%;">
+
+<p align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-weight: 400;">Stars</p>
+<p align="center">
+<a href="https://github.com/harshitGuptaj?tab=stars">
+<img src="https://img.shields.io/github/stars/harshitGuptaj?style=for-the-badge&color=f0f6fc&labelColor=0d1117&borderColor=30363d" alt="Stars">
 </a>
+</p>
+
+</td>
+<td style="width: 2%;"></td>
+<td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 20px; width: 32%;">
+
+<p align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; font-weight: 400;">Contributions</p>
+<p align="center">
+<a href="https://github.com/harshitGuptaj">
+<img src="https://img.shields.io/github/commits-since/harshitGuptaj/harshitGuptaj?style=for-the-badge&color=f0f6fc&labelColor=0d1117&borderColor=30363d" alt="Commits">
+</a>
+</p>
+
 </td>
 </tr>
 </table>
 
 <br>
 
-<table align="center" width="100%">
-<tr>
-<td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 25px; width: 50%;">
-<a href="https://github.com/harshitGuptaj">
-<img src="https://streak-stats.demolab.com?user=harshitGuptaj&theme=transparent&background=0d1117&border=30363d&ring=f0f6fc&fire=f0f6fc&currStreakLabel=f0f6fc&sideLabels=8b949e&dates=555555&card_layout=double" alt="Streak" width="400">
-</a>
-</td>
-<td style="width: 20px;"></td>
-<td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 25px; width: 50%;">
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-<img src="https://github-profile-trophy.vercel.app/?username=harshitGuptaj&no-frame=true&no-bg=true&theme=onedark&column=7&margin-w=5" alt="Trophies" width="400">
-</a>
-</td>
-</tr>
-</table>
-
-<br>
-
-<!-- ========== ACTIVITY GRAPH ========== -->
-<h1 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; letter-spacing: 6px; font-weight: 400; font-size: 28px;">
-CONTRIBUTION ACTIVITY
-</h1>
-
+<!-- ========== TROPHIES ========== -->
 <table align="center" width="100%">
 <tr>
 <td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 25px;">
-<a href="https://github.com/harshitGuptaj">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=harshitGuptaj&bg_color=0d1117&color=f0f6fc&line=8b949e&point=ffffff&area=true&area_color=30363d&hide_border=true" alt="Activity Graph" width="700">
+<p align="center">
+<a href="https://github.com/ryo-ma/github-profile-trophy">
+<img src="https://github-profile-trophy.vercel.app/?username=harshitGuptaj&no-frame=true&no-bg=true&theme=onedark&column=7&margin-w=5" alt="Trophies">
 </a>
+</p>
 </td>
 </tr>
 </table>
@@ -274,12 +257,18 @@ CONTRIBUTION ACTIVITY
 <br>
 
 <!-- ========== 3D CONTRIBUTIONS ========== -->
+<h1 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; letter-spacing: 6px; font-weight: 400;">
+CONTRIBUTIONS
+</h1>
+
 <table align="center" width="100%">
 <tr>
 <td style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 25px;">
+<p align="center">
 <a href="https://github.com/harshitGuptaj">
-<img src="https://github-profile-3d-contrib.vercel.app/api/yellow?username=harshitGuptaj&columnWidth=10&hideBackground=true" alt="3D Contribution" width="700">
+<img src="https://github-profile-3d-contrib.vercel.app/api/yellow?username=harshitGuptaj&columnWidth=10&hideBackground=true" alt="3D Contribution" width="650">
 </a>
+</p>
 </td>
 </tr>
 </table>
@@ -287,7 +276,7 @@ CONTRIBUTION ACTIVITY
 <br>
 
 <!-- ========== CONNECT ========== -->
-<h1 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; letter-spacing: 6px; font-weight: 400; font-size: 28px;">
+<h1 align="center" style="color: #f0f6fc; font-family: 'Georgia', serif; letter-spacing: 6px; font-weight: 400;">
 LET'S CONNECT
 </h1>
 
