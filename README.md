@@ -274,44 +274,11 @@ CONTRIBUTIONS
 <table align="center" width="100%">
 <tr>
 <td style="background: #000000; border: 1px solid #1a1a1a; border-radius: 12px; padding: 25px;">
-
-<p align="center" style="color: #aaaaaa; font-family: 'Georgia', serif; font-size: 13px; margin-bottom: 15px;">
-Contribution activity from the past year
-</p>
-
 <p align="center">
 <a href="https://github.com/harshitGuptaj">
 <img src="https://ghchart.rshah.org/harshitGuptaj" alt="Contribution Chart" width="100%">
 </a>
 </p>
-
-<br>
-
-<table align="center" width="100%">
-<tr>
-<td style="width: 50%; text-align: center;">
-<p align="center">
-<a href="https://github.com/harshitGuptaj">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=harshitGuptaj&theme=dark&hide_border=true" alt="Streak Stats" width="100%">
-</a>
-</p>
-</td>
-<td style="width: 50%; text-align: center;">
-<p align="center" style="color: #aaaaaa; font-family: 'Georgia', serif; font-size: 12px; margin-bottom: 8px;">Profile Views</p>
-<img src="https://komarev.com/ghpvc/?username=harshitGuptaj&label=TOTAL+VIEWS&style=flat-square&color=000000&labelColor=ffffff&borderColor=000000" alt="Views">
-<br><br>
-<p align="center" style="color: #aaaaaa; font-family: 'Georgia', serif; font-size: 12px; margin-bottom: 8px;">Public Repos</p>
-<img src="https://img.shields.io/github/repos/harshitGuptaj?style=flat-square&color=26a641&labelColor=ffffff&borderColor=26a641" alt="Repos">
-<br><br>
-<p align="center" style="color: #aaaaaa; font-family: 'Georgia', serif; font-size: 12px; margin-bottom: 8px;">Stars Earned</p>
-<img src="https://img.shields.io/github/stars/harshitGuptaj?style=flat-square&color=39d353&labelColor=ffffff&borderColor=39d353" alt="Stars">
-<br><br>
-<p align="center" style="color: #aaaaaa; font-family: 'Georgia', serif; font-size: 12px; margin-bottom: 8px;">Followers</p>
-<img src="https://img.shields.io/github/followers/harshitGuptaj?style=flat-square&color=ffffff&labelColor=000000&borderColor=ffffff" alt="Followers">
-</td>
-</tr>
-</table>
-
 </td>
 </tr>
 </table>
