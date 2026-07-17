@@ -20,9 +20,6 @@
 <a href="https://github.com/harshitGuptaj?tab=followers">
 <img src="https://img.shields.io/github/followers/harshitGuptaj?label=FOLLOWERS&style=for-the-badge&color=ffffff&labelColor=000000&borderColor=ffffff" alt="Followers">
 </a>
-<a href="https://github.com/harshitGuptaj">
-<img src="https://komarev.com/ghpvc/?username=harshitGuptaj&label=PROFILE+VIEWS&style=flat-square&color=000000&labelColor=ffffff&borderColor=000000" alt="Profile Views">
-</a>
 <a href="https://github.com/harshitGuptaj?tab=repositories">
 <img src="https://img.shields.io/github/repos/harshitGuptaj?label=REPOS&style=for-the-badge&color=ffffff&labelColor=000000&borderColor=ffffff" alt="Repos">
 </a>
@@ -234,30 +231,6 @@ GITHUB STATS
 <p align="center" style="color: #ffffff; font-family: 'Georgia', serif; font-size: 14px;">Followers</p>
 <p align="center">
 <img src="https://img.shields.io/github/followers/harshitGuptaj?style=for-the-badge&color=ffffff&labelColor=000000&borderColor=1a1a1a" alt="Followers">
-</p>
-
-</td>
-</tr>
-</table>
-
-<br>
-
-<table align="center" width="100%">
-<tr>
-<td style="background: #000000; border: 1px solid #1a1a1a; border-radius: 12px; padding: 20px; width: 48%;">
-
-<p align="center" style="color: #ffffff; font-family: 'Georgia', serif; font-size: 14px;">Profile Views</p>
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=harshitGuptaj&label=TOTAL+VIEWS&style=flat-square&color=000000&labelColor=ffffff&borderColor=000000" alt="Views">
-</p>
-
-</td>
-<td style="width: 4%;"></td>
-<td style="background: #000000; border: 1px solid #1a1a1a; border-radius: 12px; padding: 20px; width: 48%;">
-
-<p align="center" style="color: #ffffff; font-family: 'Georgia', serif; font-size: 14px;">Commits This Year</p>
-<p align="center">
-<img src="https://img.shields.io/github/commits-since/harshitGuptaj/harshitGuptaj?style=for-the-badge&color=ffffff&labelColor=000000&borderColor=1a1a1a" alt="Commits">
 </p>
 
 </td>
