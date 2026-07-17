@@ -74,14 +74,15 @@ const harshitGupta: Developer = {
   launchedProjects: [
     {
       name:        "Code Syncer",
-      description: "Real-time collaborative code editor",
-      live:        "code-syncer.vercel.app",
+      description: "Real-time collaborative IDE with AI copilot",
+      live:        "code-syncer-production.up.railway.app",
       github:      "harshitGuptaj/code-Syncer",
     },
     {
-      name:        "Student Performance Forecasting",
-      description: "Data science & ML prediction model",
-      github:      "harshitGuptaj/Understanding-and-Forecasting-Student-Performance-in-India",
+      name:        "Kaagazz Bookstore",
+      description: "Multi-role book marketplace with admin panel",
+      live:        "kaagazz-web-production.up.railway.app",
+      github:      "harshitGuptaj/kaagazz-bookstore",
     },
   ],
 
@@ -115,22 +116,22 @@ Code Syncer
 </h2>
 
 <p align="center" style="color: #aaaaaa; font-size: 13px; font-family: 'Georgia', serif; line-height: 1.6;">
-Real-time collaborative coding platform for pair programming with live code syncing.
+Real-time collaborative IDE with live code sync, chat, whiteboard & AI copilot. Containerized on AWS ECS with Redis for sub-100ms sync latency.
 </p>
 
 <table align="center">
 <tr><td style="color: #ffffff; font-weight: bold; padding: 4px 12px;">Layer</td><td style="color: #ffffff; font-weight: bold; padding: 4px 12px;">Technology</td></tr>
 <tr><td style="color: #aaaaaa; padding: 4px 12px;">Frontend</td><td style="color: #aaaaaa; padding: 4px 12px;">React, TypeScript, Vite, Tailwind</td></tr>
-<tr><td style="color: #aaaaaa; padding: 4px 12px;">Real-Time</td><td style="color: #aaaaaa; padding: 4px 12px;">Socket.IO</td></tr>
+<tr><td style="color: #aaaaaa; padding: 4px 12px;">Real-Time</td><td style="color: #aaaaaa; padding: 4px 12px;">Socket.IO, AWS ElastiCache</td></tr>
 <tr><td style="color: #aaaaaa; padding: 4px 12px;">Backend</td><td style="color: #aaaaaa; padding: 4px 12px;">Node.js, Express.js</td></tr>
-<tr><td style="color: #aaaaaa; padding: 4px 12px;">Editor</td><td style="color: #aaaaaa; padding: 4px 12px;">CodeMirror 6</td></tr>
-<tr><td style="color: #aaaaaa; padding: 4px 12px;">Deploy</td><td style="color: #aaaaaa; padding: 4px 12px;">Vercel + Render</td></tr>
+<tr><td style="color: #aaaaaa; padding: 4px 12px;">Infra</td><td style="color: #aaaaaa; padding: 4px 12px;">AWS ECS, S3, Redis</td></tr>
+<tr><td style="color: #aaaaaa; padding: 4px 12px;">Editor</td><td style="color: #aaaaaa; padding: 4px 12px;">CodeMirror 6, 30+ languages</td></tr>
 </table>
 
 <br>
 
 <p align="center">
-<a href="https://code-syncer.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-ffffff?style=for-the-badge&logo=vercel&logoColor=000000&labelColor=000000&borderColor=ffffff" alt="Live Demo"></a>
+<a href="https://code-syncer-production.up.railway.app"><img src="https://img.shields.io/badge/LIVE_DEMO-ffffff?style=for-the-badge&logo=railway&logoColor=000000&labelColor=000000&borderColor=ffffff" alt="Live Demo"></a>
 <a href="https://github.com/harshitGuptaj/code-Syncer"><img src="https://img.shields.io/badge/SOURCE-000000?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=ffffff&borderColor=ffffff" alt="Source"></a>
 </p>
 
@@ -140,26 +141,26 @@ Real-time collaborative coding platform for pair programming with live code sync
 <td style="background: #000000; border: 1px solid #1a1a1a; border-radius: 12px; padding: 30px; width: 48%; vertical-align: top;">
 
 <h2 align="center" style="color: #ffffff; font-family: 'Georgia', serif; font-weight: 400;">
-Student Performance Forecasting
+Kaagazz Bookstore
 </h2>
 
 <p align="center" style="color: #aaaaaa; font-size: 13px; font-family: 'Georgia', serif; line-height: 1.6;">
-Data science project analyzing & predicting student academic performance in India.
+Multi-role book marketplace with admin panel, seller dashboard, cart & wishlist. Deployed on AWS EC2 with RDS and S3 for images.
 </p>
 
 <table align="center">
 <tr><td style="color: #ffffff; font-weight: bold; padding: 4px 12px;">Layer</td><td style="color: #ffffff; font-weight: bold; padding: 4px 12px;">Technology</td></tr>
-<tr><td style="color: #aaaaaa; padding: 4px 12px;">Language</td><td style="color: #aaaaaa; padding: 4px 12px;">Python</td></tr>
-<tr><td style="color: #aaaaaa; padding: 4px 12px;">Notebook</td><td style="color: #aaaaaa; padding: 4px 12px;">Jupyter Notebook</td></tr>
-<tr><td style="color: #aaaaaa; padding: 4px 12px;">Analysis</td><td style="color: #aaaaaa; padding: 4px 12px;">Pandas, NumPy</td></tr>
-<tr><td style="color: #aaaaaa; padding: 4px 12px;">Visualization</td><td style="color: #aaaaaa; padding: 4px 12px;">Matplotlib, Seaborn</td></tr>
-<tr><td style="color: #aaaaaa; padding: 4px 12px;">ML</td><td style="color: #aaaaaa; padding: 4px 12px;">Scikit-learn</td></tr>
+<tr><td style="color: #aaaaaa; padding: 4px 12px;">Frontend</td><td style="color: #aaaaaa; padding: 4px 12px;">HTML5, Bootstrap 5, jQuery</td></tr>
+<tr><td style="color: #aaaaaa; padding: 4px 12px;">Backend</td><td style="color: #aaaaaa; padding: 4px 12px;">PHP 7.4+, MySQL</td></tr>
+<tr><td style="color: #aaaaaa; padding: 4px 12px;">Infra</td><td style="color: #aaaaaa; padding: 4px 12px;">AWS EC2, RDS, S3</td></tr>
+<tr><td style="color: #aaaaaa; padding: 4px 12px;">Features</td><td style="color: #aaaaaa; padding: 4px 12px;">Auth, Cart, Orders, Admin</td></tr>
 </table>
 
 <br>
 
 <p align="center">
-<a href="https://github.com/harshitGuptaj/Understanding-and-Forecasting-Student-Performance-in-India"><img src="https://img.shields.io/badge/SOURCE-000000?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=ffffff&borderColor=ffffff" alt="Source"></a>
+<a href="https://kaagazz-web-production.up.railway.app"><img src="https://img.shields.io/badge/LIVE_DEMO-ffffff?style=for-the-badge&logo=railway&logoColor=000000&labelColor=000000&borderColor=ffffff" alt="Live Demo"></a>
+<a href="https://github.com/harshitGuptaj/kaagazz-bookstore"><img src="https://img.shields.io/badge/SOURCE-000000?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=ffffff&borderColor=ffffff" alt="Source"></a>
 </p>
 
 </td>
