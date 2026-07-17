@@ -35,7 +35,7 @@
 
 <!-- ========== SNAKE ========== -->
 <p align="center">
-<img src="https://raw.githubusercontent.com/harshitGuptaj/harshitGuptaj/gh-pages/github-snake-dark.svg" width="100%" alt="Snake">
+<img src="https://raw.githubusercontent.com/harshitGuptaj/harshitGuptaj/gh-pages/github-snake.svg" width="100%" alt="Snake">
 </p>
 
 <br>

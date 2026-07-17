@@ -19,84 +19,21 @@ jobs:
           github_user_name: harshitGuptaj
           outputs: |
             dist/github-snake.svg?palette=green
-            dist/github-snake-dark.svg?palette=green&color_snake=ffffff
 
-      - name: Inline all CSS into SVG attributes
+      - name: Convert CSS variables to inline fill
         run: |
-          python3 << 'PYEOF'
-          import re, glob
-
-          COLOR_VARS = {
-              "--ce": "#0d1117",
-              "--c0": "#0e4429",
-              "--c1": "#006d32",
-              "--c2": "#26a641",
-              "--c3": "#39d353",
-              "--cs": "#ffffff",
-              "--cb": "#1b1f230a",
-          }
-
-          def inline_svg(path):
-              with open(path) as f:
-                  svg = f.read()
-
-              # Parse all CSS custom properties from :root
-              root_vars = {}
-              for m in re.finditer(r'--(\w+):\s*([^;]+)', svg):
-                  root_vars[m.group(1)] = m.group(2).strip()
-
-              # Merge with our overrides
-              for k, v in COLOR_VARS.items():
-                  root_vars[k.lstrip('-')] = v
-
-              # Build class -> fill mapping from CSS rules
-              class_fills = {}
-              for m in re.finditer(r'\.([\w.]+)\s*\{([^}]+)\}', svg):
-                  selector = m.group(1)
-                  body = m.group(2)
-                  fill_match = re.search(r'fill:\s*(var\(--(\w+)\))', body)
-                  if fill_match:
-                      var_name = fill_match.group(2)
-                      color = root_vars.get(var_name, fill_match.group(1))
-                      class_fills[selector] = color
-
-              # Replace each <rect> with inline fill
-              def fix_rect(m):
-                  tag = m.group(0)
-                  cls_m = re.search(r'class="([^"]*)"', tag)
-                  if not cls_m:
-                      return tag
-                  classes = cls_m.group(1).split()
-
-                  # Find fill: most specific class wins
-                  fill = None
-                  for i in range(len(classes), 0, -1):
-                      key = ".".join(classes[:i])
-                      if key in class_fills:
-                          fill = class_fills[key]
-                          break
-
-                  if not fill:
-                      fill = root_vars.get("ce", "#0d1117")
-
-                  # Remove old fill, add inline
-                  tag = re.sub(r'\s*fill="[^"]*"', '', tag)
-                  tag = tag.replace('/>', f' fill="{fill}"/>')
-                  return tag
-
-              svg = re.sub(r'<rect\s[^/]*/>', fix_rect, svg)
-
-              # Remove <style> and <desc>
-              svg = re.sub(r'<style>[^<]*</style>', '', svg)
-              svg = re.sub(r'<desc>[^<]*</desc>', '', svg)
-
-              with open(path, 'w') as f:
-                  f.write(svg)
-              print(f"OK: {path}")
-
-          for f in glob.glob("dist/*.svg"):
-              inline_svg(f)
-          PYEOF
+          for f in dist/*.svg; do
+            sed -i \
+              -e 's/var(--ce)/#0d1117/g' \
+              -e 's/var(--c0)/#0e4429/g' \
+              -e 's/var(--c1)/#006d32/g' \
+              -e 's/var(--c2)/#26a641/g' \
+              -e 's/var(--c3)/#39d353/g' \
+              -e 's/var(--cs)/#ffffff/g' \
+              -e 's/var(--cb)/#1b1f230a/g' \
+              "$f"
+            echo "Fixed: $f"
+          done
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
