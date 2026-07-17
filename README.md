@@ -305,8 +305,12 @@ LET'S CONNECT
 <br>
 
 <!-- ========== FOOTER ========== -->
+<br>
+
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=harshitGuptaj&label=TOTAL+PROFILE+VIEWS&style=for-the-badge&color=ffffff&labelColor=000000&borderColor=ffffff" alt="Visitors">
+<a href="https://github.com/harshitGuptaj">
+<img src="https://komarev.com/ghpvc/?username=harshitGuptaj&label=TOTAL+PROFILE+VIEWS&style=flat-square&color=000000&labelColor=ffffff&borderColor=000000" alt="Visitors">
+</a>
 </p>
 
 <h1 align="center">
