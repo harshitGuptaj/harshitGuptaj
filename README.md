@@ -21,7 +21,7 @@
 <img src="https://img.shields.io/github/followers/harshitGuptaj?label=FOLLOWERS&style=for-the-badge&color=ffffff&labelColor=000000&borderColor=ffffff" alt="Followers">
 </a>
 <a href="https://github.com/harshitGuptaj">
-<img src="https://komarev.com/ghpvc/?username=harshitGuptaj&label=PROFILE+VIEWS&style=for-the-badge&color=ffffff&labelColor=000000&borderColor=ffffff" alt="Profile Views">
+<img src="https://komarev.com/ghpvc/?username=harshitGuptaj&label=PROFILE+VIEWS&style=flat-square&color=000000&labelColor=ffffff&borderColor=000000" alt="Profile Views">
 </a>
 <a href="https://github.com/harshitGuptaj?tab=repositories">
 <img src="https://img.shields.io/github/repos/harshitGuptaj?label=REPOS&style=for-the-badge&color=ffffff&labelColor=000000&borderColor=ffffff" alt="Repos">
@@ -248,7 +248,7 @@ GITHUB STATS
 
 <p align="center" style="color: #ffffff; font-family: 'Georgia', serif; font-size: 14px;">Profile Views</p>
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=harshitGuptaj&label=TOTAL+VIEWS&style=for-the-badge&color=ffffff&labelColor=000000&borderColor=1a1a1a" alt="Views">
+<img src="https://komarev.com/ghpvc/?username=harshitGuptaj&label=TOTAL+VIEWS&style=flat-square&color=000000&labelColor=ffffff&borderColor=000000" alt="Views">
 </p>
 
 </td>
