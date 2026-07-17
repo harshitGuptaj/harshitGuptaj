@@ -274,9 +274,30 @@ CONTRIBUTIONS
 <table align="center" width="100%">
 <tr>
 <td style="background: #000000; border: 1px solid #1a1a1a; border-radius: 12px; padding: 25px;">
+
 <p align="center">
+<a href="https://github.com/harshitGuptaj">
 <img src="https://ghchart.rshah.org/harshitGuptaj" alt="Contribution Chart" width="100%">
+</a>
 </p>
+
+<table align="center" width="100%">
+<tr>
+<td style="width: 33%; text-align: center;">
+<p style="color: #ffffff; font-family: 'Georgia', serif; font-size: 14px; margin: 5px 0;">Total Contributions</p>
+<img src="https://komarev.com/ghpvc/?username=harshitGuptaj&label=CONTRIBUTIONS&style=flat-square&color=0e4429&labelColor=ffffff&borderColor=0e4429" alt="Contributions">
+</td>
+<td style="width: 33%; text-align: center;">
+<p style="color: #ffffff; font-family: 'Georgia', serif; font-size: 14px; margin: 5px 0;">Public Repos</p>
+<img src="https://img.shields.io/github/repos/harshitGuptaj?style=flat-square&color=26a641&labelColor=ffffff&borderColor=26a641" alt="Repos">
+</td>
+<td style="width: 33%; text-align: center;">
+<p style="color: #ffffff; font-family: 'Georgia', serif; font-size: 14px; margin: 5px 0;">Stars</p>
+<img src="https://img.shields.io/github/stars/harshitGuptaj?style=flat-square&color=39d353&labelColor=ffffff&borderColor=39d353" alt="Stars">
+</td>
+</tr>
+</table>
+
 </td>
 </tr>
 </table>
