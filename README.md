@@ -289,20 +289,24 @@ Contribution activity from the past year
 
 <table align="center" width="100%">
 <tr>
-<td style="width: 25%; text-align: center;">
-<p style="color: #aaaaaa; font-family: 'Georgia', serif; font-size: 12px; margin: 5px 0;">Profile Views</p>
-<img src="https://komarev.com/ghpvc/?username=harshitGuptaj&label=TOTAL&style=flat-square&color=000000&labelColor=ffffff&borderColor=000000" alt="Views">
+<td style="width: 50%; text-align: center;">
+<p align="center">
+<a href="https://github.com/harshitGuptaj">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=harshitGuptaj&theme=dark&hide_border=true" alt="Streak Stats" width="100%">
+</a>
+</p>
 </td>
-<td style="width: 25%; text-align: center;">
-<p style="color: #aaaaaa; font-family: 'Georgia', serif; font-size: 12px; margin: 5px 0;">Public Repos</p>
+<td style="width: 50%; text-align: center;">
+<p align="center" style="color: #aaaaaa; font-family: 'Georgia', serif; font-size: 12px; margin-bottom: 8px;">Profile Views</p>
+<img src="https://komarev.com/ghpvc/?username=harshitGuptaj&label=TOTAL+VIEWS&style=flat-square&color=000000&labelColor=ffffff&borderColor=000000" alt="Views">
+<br><br>
+<p align="center" style="color: #aaaaaa; font-family: 'Georgia', serif; font-size: 12px; margin-bottom: 8px;">Public Repos</p>
 <img src="https://img.shields.io/github/repos/harshitGuptaj?style=flat-square&color=26a641&labelColor=ffffff&borderColor=26a641" alt="Repos">
-</td>
-<td style="width: 25%; text-align: center;">
-<p style="color: #aaaaaa; font-family: 'Georgia', serif; font-size: 12px; margin: 5px 0;">Stars Earned</p>
+<br><br>
+<p align="center" style="color: #aaaaaa; font-family: 'Georgia', serif; font-size: 12px; margin-bottom: 8px;">Stars Earned</p>
 <img src="https://img.shields.io/github/stars/harshitGuptaj?style=flat-square&color=39d353&labelColor=ffffff&borderColor=39d353" alt="Stars">
-</td>
-<td style="width: 25%; text-align: center;">
-<p style="color: #aaaaaa; font-family: 'Georgia', serif; font-size: 12px; margin: 5px 0;">Followers</p>
+<br><br>
+<p align="center" style="color: #aaaaaa; font-family: 'Georgia', serif; font-size: 12px; margin-bottom: 8px;">Followers</p>
 <img src="https://img.shields.io/github/followers/harshitGuptaj?style=flat-square&color=ffffff&labelColor=000000&borderColor=ffffff" alt="Followers">
 </td>
 </tr>
