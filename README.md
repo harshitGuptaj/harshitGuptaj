@@ -33,13 +33,6 @@
 
 <br>
 
-<!-- ========== SNAKE ========== -->
-<p align="center">
-<img src="https://raw.githubusercontent.com/harshitGuptaj/harshitGuptaj/gh-pages/github-snake.svg" width="100%" alt="Snake">
-</p>
-
-<br>
-
 <!-- ========== WHO I AM ========== -->
 <table align="center" width="100%">
 <tr>
