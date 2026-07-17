@@ -272,7 +272,7 @@ GITHUB STATS
 
 <br>
 
-<!-- ========== 3D CONTRIBUTION ========== -->
+<!-- ========== CONTRIBUTION ACTIVITY ========== -->
 <h1 align="center" style="color: #ffffff; font-family: 'Georgia', serif; letter-spacing: 6px; font-weight: 400;">
 CONTRIBUTIONS
 </h1>
@@ -281,7 +281,7 @@ CONTRIBUTIONS
 <tr>
 <td style="background: #000000; border: 1px solid #1a1a1a; border-radius: 12px; padding: 25px;">
 <p align="center">
-<img src="https://github-profile-3d-contrib.vercel.app/api/yellow?username=harshitGuptaj&columnWidth=10&hideBackground=true" alt="3D Contribution" width="650">
+<img src="https://ghchart.rshah.org/harshitGuptaj" alt="Contribution Chart" width="100%">
 </p>
 </td>
 </tr>
